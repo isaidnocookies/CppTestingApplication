@@ -2,6 +2,9 @@
 //
 
 #include "MyCoreClasses.h"
+#include "Namespace1Class.h"
+#include "Header.h"
+#include "ClassWithNoName.h"
 
 int main()
 {
@@ -14,6 +17,14 @@ int main()
 	ClassWithTemplates <int> cT;
 	cT.setValue(10);
 	cT.outputValue();
+	
+	nsOne::AClass ns1Class;
+    ns1Class.sayHi();
+    ns1Class.pickCppType(cPlusPlus::objects::aNamespace);
+
+    // Class with no name
+    classWithNoName.setText("Hello from the no-named class..");
+    std::cout << classWithNoName.getText() << std::endl;
 
 	return 0;
 }
