@@ -2,5 +2,5 @@
 
 void AnAbstractClass::outputText()
 {
-	std::cout << getText();
+	std::cout << getText() << std::endl;
 }

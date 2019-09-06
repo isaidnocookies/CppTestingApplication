@@ -7,5 +7,8 @@ std::string AConcreteClass::getText() const
 
 void AConcreteClass::setText(std::string iInput)
 {
-	text = iInput;
+
+	{
+		text = iInput;
+	}
 }

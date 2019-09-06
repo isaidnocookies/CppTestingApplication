@@ -16,6 +16,14 @@ public:
 	};
 
 	void outputValue() {
-		std::cout << value;
+		std::cout << value << std::endl;
 	};
+
+	void outputValue(std::string iPrefix) {
+		std::cout << iPrefix << " : " << value << std::endl;
+	}
+
+	void outputValue(std::string iPrefix, std::string iPrefixToThePrefix) {
+		std::cout << iPrefixToThePrefix << " : " << iPrefix << " : " << value << std::endl;
+	}
 };
