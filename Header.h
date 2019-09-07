@@ -11,6 +11,7 @@ namespace cPlusPlus {
 	};
 }
 
+// Presented as if they are in the cPlusPlus namespace
 enum otherObjects {
 	otherClasses,
 	otherFunctions,
