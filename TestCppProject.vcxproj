@@ -151,20 +151,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ABC_DEF\Namespace2Class.cpp" />
+    <ClCompile Include="ABC_GHI\Namespace3Class.cpp" />
     <ClCompile Include="AConcreteClass.cpp" />
     <ClCompile Include="AnAbstractClass.cpp" />
+    <ClCompile Include="ClassWithStaticFunctions.cpp" />
     <ClCompile Include="ClassWithTemplates.cpp" />
     <ClCompile Include="Namespace1Class.cpp" />
+    <ClCompile Include="ExtraTools\OutputTool.cpp" />
+    <ClCompile Include="ExtraTools\OutputToolWrapper.cpp" />
     <ClCompile Include="TestCppProject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ABC_DEF\Namespace2Class.h" />
+    <ClInclude Include="ABC_GHI\Namespace3Class.h" />
     <ClInclude Include="AConcreteClass.h" />
     <ClInclude Include="AnAbstractClass.h" />
     <ClInclude Include="ClassWithNoName.h" />
+    <ClInclude Include="ClassWithStaticFunction.h" />
     <ClInclude Include="ClassWithTemplates.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="MyCoreClasses.h" />
     <ClInclude Include="Namespace1Class.h" />
+    <ClInclude Include="ExtraTools\OutputTool.h" />
+    <ClInclude Include="ExtraTools\OutputToolWrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
